@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Claude Üniversitesi · OBS+ Prototip</title>
+<title>Öğrenci Bilgi Sistemi</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -218,7 +218,6 @@ table.grid b{color:var(--ink)}
 .ptitle i{width:30px;height:30px;border-radius:8px;display:grid;place-items:center;font-size:13px}
 .ptitle small{font-size:11.5px;color:var(--muted);margin-left:4px}
 .demo{font-size:11px;color:var(--muted)}
-.proto-note{display:flex;gap:8px;align-items:center;background:#fff3cd;border:1px solid #ffe69c;color:#664d03;border-radius:10px;padding:8px 12px;font-size:12px;margin-bottom:12px}
 .rtw{max-height:520px;overflow:auto}
 .rtw thead th{position:sticky;top:0;z-index:1}
 table.grid tr.me td{background:#fdf4ff;border-color:#e9a8f5}
@@ -234,7 +233,7 @@ table.grid tr.me td:first-child{box-shadow:inset 3px 0 0 #a21caf}
 <body>
 <div class="topbar">
   <button class="hamb" id="hamb" aria-label="Menü"><i class="fa-solid fa-bars"></i></button>
-  <span class="brand-text">Claude Üniversitesi</span>
+  <span class="brand-text">Yaşar Üniversitesi</span>
   <span class="sem-badge">2026-2027 Güz</span>
   <div class="tb-right">
     <button class="tb-btn" data-tab="home" title="Ana Sayfa"><i class="fa-solid fa-house"></i></button>
@@ -249,7 +248,7 @@ table.grid tr.me td:first-child{box-shadow:inset 3px 0 0 #a21caf}
   <nav id="menu"></nav>
 </aside>
 <div class="backdrop" id="backdrop"></div>
-<div class="content"><div class="proto-note"><i class="fa-solid fa-circle-info"></i>Bu resmi bir üniversite sistemi değildir; örnek verilerle çalışan bir prototiptir. Giriş bilgisi istemez ve hiçbir veriyi bir yere göndermez.</div><div class="frame" id="app"></div></div>
+<div class="content"><div class="frame" id="app"></div></div>
 <div class="sbar"><span class="demo">Prototip · örnek verilerle çalışır, gerçek OBS hesabına bağlı değildir</span><span class="timer"><i class="fa-regular fa-clock"></i><span id="timer">60:00</span></span></div>
 <div id="toasts"></div>
 <script>
